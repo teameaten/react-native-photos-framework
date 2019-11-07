@@ -55,8 +55,6 @@
 		6326189E1F5C85C4008A3E90 /* PHCancellationTokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCancellationTokenManager.m; sourceTree = "<group>"; };
 		632618A01F5C85E4008A3E90 /* PHCancellationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCancellationToken.h; sourceTree = "<group>"; };
 		632618A11F5C85E4008A3E90 /* PHCancellationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCancellationToken.m; sourceTree = "<group>"; };
-		632D5ED21DF19458006A862C /* PHAssetsService_getAssetsForFetchResultTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHAssetsService_getAssetsForFetchResultTests.m; sourceTree = "<group>"; };
-		632D5ED41DF19458006A862C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632D5EDC1DF19526006A862C /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../node_modules/react-native/React/build/Debug-iphoneos/libReact.a"; sourceTree = "<group>"; };
 		632F8C131DB758E7007E83E1 /* libRNPhotosFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPhotosFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		632F8C1F1DB75A4A007E83E1 /* PHCachingImageManagerInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCachingImageManagerInstance.h; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 		6342E06E1DC346E300F7765E /* PHSaveAssetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSaveAssetRequest.h; sourceTree = "<group>"; };
 		6342E06F1DC346E300F7765E /* PHSaveAssetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSaveAssetRequest.m; sourceTree = "<group>"; };
 		6349B2B91E6700DF00A153FD /* RNPFGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPFGlobals.h; sourceTree = "<group>"; };
-		63880A7A1E1281F3007532B2 /* RCTConvert+RNPhotosFrameworkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+RNPhotosFrameworkTests.m"; sourceTree = "<group>"; };
 		6394ACE41EA6AB4800AC445F /* ImageHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelpers.h; sourceTree = "<group>"; };
 		6394ACE51EA6AB4800AC445F /* ImageHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageHelpers.m; sourceTree = "<group>"; };
 		6394ACE71EA6AB5600AC445F /* RCTImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTImageResizer.h; sourceTree = "<group>"; };
@@ -122,16 +119,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		632D5ED11DF19458006A862C /* RNPhotosFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				632D5ED21DF19458006A862C /* PHAssetsService_getAssetsForFetchResultTests.m */,
-				632D5ED41DF19458006A862C /* Info.plist */,
-				63880A7A1E1281F3007532B2 /* RCTConvert+RNPhotosFrameworkTests.m */,
-			);
-			path = RNPhotosFrameworkTests;
-			sourceTree = "<group>";
-		};
 		632D5EDB1DF19525006A862C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				632F8C151DB758E7007E83E1 /* RNPhotosFramework */,
-				632D5ED11DF19458006A862C /* RNPhotosFrameworkTests */,
 				632F8C141DB758E7007E83E1 /* Products */,
 				632D5EDB1DF19525006A862C /* Frameworks */,
 			);
